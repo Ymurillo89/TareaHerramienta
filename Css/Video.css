@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #34495E;
+}
+/*Header*/
+.container-header{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 12px;
+    height: 800px;
+    
+}
+.container-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+}
+.container-logo{
+    height: auto;
+    width: auto;
+    
+}
+
+.img-logo{
+    height: 100%;
+    width: 100%;
+}
+
+.container-menu-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-acciones{
+    display: flex;
+    align-items: center;
+    
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.btn{
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 1.5rem ;
+}
+
+.img-header{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/*Body*/
+
+/*Cuerpo de página*/
+.body-page{
+    margin: 20px;
+    align-items: center;
+}
+   
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container-video{
+    text-align:center;
+    
+}
